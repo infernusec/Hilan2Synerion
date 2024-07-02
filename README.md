@@ -2,13 +2,13 @@
 
 The script accepts an XLS file that comes from the Hilan system and allows uploading its content to the Synerion system by Browser Automation.
 
-# Requirements
+## Requirements
 1. Python Libraries: `selenium, bs4`
 2. Browser Driver Automation that compatible with the current browser that installed
 3. python 3.10+
 
 
-# Syntax
+## Syntax
 `python convert.py --username="user" --password="pass" --file=test.xls`
 
 OR with System Enviroments
