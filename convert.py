@@ -1,3 +1,8 @@
+
+#!/usr/bin/python
+# Written By Snir Sofer
+# Repo: https://github.com/infernusec/Hilan2Synerion
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
