@@ -36,4 +36,4 @@ def buildVar(filename):
         #cells = [cell.text for cell in cells]
         #rows.append(cells)
 
-print(json.dumps(buildVar('test.xls')))
+print(json.dumps(buildVar('test.xls'),None))
