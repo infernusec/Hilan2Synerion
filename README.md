@@ -3,9 +3,9 @@
 The script accepts an XLS file that comes from the Hilan system and allows uploading its content to the Synerion system by Browser Automation.
 
 ## Requirements
-1. Python Libraries: `selenium, bs4`
-2. Browser Driver Automation that compatible with the current browser that installed
-3. python 3.10+
+1. python 3.10+
+2. Python Libraries: `selenium, bs4`
+3. Browser Driver Automation that compatible with the current browser that installed
 
 
 ## Syntax
