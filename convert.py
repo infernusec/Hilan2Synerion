@@ -106,7 +106,7 @@ class SynerionAutomation:
                 if current_date in self.hilan_days_keys:
                     self.hilan_days_keys.remove(current_date)
                 saved_rows[0]['exists'] = True
-        time.sleep(2)
+        time.sleep(10)
         first_elm = table.find_element(By.CSS_SELECTOR,'#table1 > tbody > tr:nth-child(15)')
         self.driver.execute_script("arguments[0].scrollIntoView();", first_elm)
         first_elm.click()
